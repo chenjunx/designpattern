@@ -13,6 +13,9 @@ public class LoggerTest {
         System.out.println("--------");
         //工厂实现
         factoryImplement();
+        System.out.println("--------");
+        //新的DB记录实现
+        dbFactoryImplement();
     }
 
     /**
@@ -38,4 +41,9 @@ public class LoggerTest {
     }
 
 
+    public static void dbFactoryImplement() throws IOException{
+        LoggerFactory loggerFactory = new DBCreator();
+        loggerFactory.getLogger().log("AAA");
+
+    }
 }
