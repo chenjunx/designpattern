@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T09:51:41.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BHY4W2PK2AxKlm1OuglA" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T09:57:30.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y6dTPqRwr_7sWpiujCPU" version="21.3.7" type="github">
   <diagram name="第 1 页" id="NS-F2zEvttwvpOeABiUR">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="bpSFriUUABZxsV5Dr9gq-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpSFriUUABZxsV5Dr9gq-8" target="bpSFriUUABZxsV5Dr9gq-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bpSFriUUABZxsV5Dr9gq-8" value="校验可分配数量小于限制数量" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bpSFriUUABZxsV5Dr9gq-8" value="校验可分配数量小于限制数量(基于当前可分配库位)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bpSFriUUABZxsV5Dr9gq-10" target="bpSFriUUABZxsV5Dr9gq-14">
@@ -58,7 +58,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-14" value="获取库位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpSFriUUABZxsV5Dr9gq-16" target="bpSFriUUABZxsV5Dr9gq-18">
           <mxGeometry relative="1" as="geometry" />
@@ -67,19 +67,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-16" value="判断库位是否有锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="1660" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpSFriUUABZxsV5Dr9gq-18" target="bpSFriUUABZxsV5Dr9gq-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-18" value="库位加锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-22" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="340" width="80" height="80" as="geometry" />
+          <mxGeometry x="1680" y="330" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-24" value="返回库位信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="2080" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-26" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="360" width="80" height="80" as="geometry" />
@@ -92,6 +92,23 @@
         </mxCell>
         <mxCell id="bpSFriUUABZxsV5Dr9gq-32" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1060" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bpSFriUUABZxsV5Dr9gq-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bpSFriUUABZxsV5Dr9gq-35" target="bpSFriUUABZxsV5Dr9gq-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bpSFriUUABZxsV5Dr9gq-35" value="分配库位不锁定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bpSFriUUABZxsV5Dr9gq-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpSFriUUABZxsV5Dr9gq-51" target="bpSFriUUABZxsV5Dr9gq-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpSFriUUABZxsV5Dr9gq-51" value="获取库位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bpSFriUUABZxsV5Dr9gq-57" value="返回库位信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
