@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T03:10:08.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uQ5P60CdMPidWzxPBnIe" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T03:24:16.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1E-SEy8h94Z2yl84bQGh" version="21.3.8" type="github">
   <diagram name="第 1 页" id="F6dG5_A3Um-crkwg2Fu7">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,55 +8,95 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-1" value="获取巷道信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gf1vgHxvezX9lM_lhzFU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gf1vgHxvezX9lM_lhzFU-2" target="Gf1vgHxvezX9lM_lhzFU-4" edge="1">
+        <mxCell id="Gf1vgHxvezX9lM_lhzFU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HzNcq0CFOtS88VcaEKLo-2" target="Gf1vgHxvezX9lM_lhzFU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-2" value="查询没有深库位关联的浅库位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gf1vgHxvezX9lM_lhzFU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gf1vgHxvezX9lM_lhzFU-4" target="Gf1vgHxvezX9lM_lhzFU-14" edge="1">
+        <mxCell id="Gf1vgHxvezX9lM_lhzFU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HzNcq0CFOtS88VcaEKLo-6" target="Gf1vgHxvezX9lM_lhzFU-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-4" value="查询浅库位无货的深库位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gf1vgHxvezX9lM_lhzFU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gf1vgHxvezX9lM_lhzFU-14" target="Gf1vgHxvezX9lM_lhzFU-16" edge="1">
+        <mxCell id="Gf1vgHxvezX9lM_lhzFU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HzNcq0CFOtS88VcaEKLo-9" target="Gf1vgHxvezX9lM_lhzFU-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-14" value="查询可用的浅库位(深库位无任务，有货)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gf1vgHxvezX9lM_lhzFU-16" target="dkD_HturjqOUofhY_IXH-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-16" value="未分配的深库位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-18" value="深库位有货或者有任务(等待，执行)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="630" width="120" height="80" as="geometry" />
+          <mxGeometry x="270" y="590" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkD_HturjqOUofhY_IXH-2" target="dkD_HturjqOUofhY_IXH-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-2" value="获取库位" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkD_HturjqOUofhY_IXH-4" target="dkD_HturjqOUofhY_IXH-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-4" value="判断库位是否有锁" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkD_HturjqOUofhY_IXH-6" target="dkD_HturjqOUofhY_IXH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-6" value="库位加锁" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="780" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dkD_HturjqOUofhY_IXH-7" value="返回库位信息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gf1vgHxvezX9lM_lhzFU-2" target="HzNcq0CFOtS88VcaEKLo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="700" as="sourcePoint" />
+            <mxPoint x="220" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HzNcq0CFOtS88VcaEKLo-2" target="dkD_HturjqOUofhY_IXH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gf1vgHxvezX9lM_lhzFU-4" target="HzNcq0CFOtS88VcaEKLo-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="850" as="sourcePoint" />
+            <mxPoint x="220" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HzNcq0CFOtS88VcaEKLo-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="870" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gf1vgHxvezX9lM_lhzFU-14" target="HzNcq0CFOtS88VcaEKLo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="220" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HzNcq0CFOtS88VcaEKLo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzNcq0CFOtS88VcaEKLo-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1040" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
