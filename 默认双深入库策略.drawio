@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T03:09:56.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PPRSJBqMR6cJZ9KKydCH" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T03:10:08.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uQ5P60CdMPidWzxPBnIe" version="21.3.8" type="github">
   <diagram name="第 1 页" id="F6dG5_A3Um-crkwg2Fu7">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-14" value="查询可用的浅库位(深库位无任务，有货)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gf1vgHxvezX9lM_lhzFU-16" target="dkD_HturjqOUofhY_IXH-2">
+        <mxCell id="dkD_HturjqOUofhY_IXH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gf1vgHxvezX9lM_lhzFU-16" target="dkD_HturjqOUofhY_IXH-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-16" value="未分配的深库位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -37,25 +37,25 @@
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-18" value="深库位有货或者有任务(等待，执行)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="630" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkD_HturjqOUofhY_IXH-2" target="dkD_HturjqOUofhY_IXH-4">
+        <mxCell id="dkD_HturjqOUofhY_IXH-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkD_HturjqOUofhY_IXH-2" target="dkD_HturjqOUofhY_IXH-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-2" value="获取库位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dkD_HturjqOUofhY_IXH-2" value="获取库位" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkD_HturjqOUofhY_IXH-4" target="dkD_HturjqOUofhY_IXH-6">
+        <mxCell id="dkD_HturjqOUofhY_IXH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkD_HturjqOUofhY_IXH-4" target="dkD_HturjqOUofhY_IXH-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-4" value="判断库位是否有锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dkD_HturjqOUofhY_IXH-4" value="判断库位是否有锁" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkD_HturjqOUofhY_IXH-6" target="dkD_HturjqOUofhY_IXH-7">
+        <mxCell id="dkD_HturjqOUofhY_IXH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkD_HturjqOUofhY_IXH-6" target="dkD_HturjqOUofhY_IXH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-6" value="库位加锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dkD_HturjqOUofhY_IXH-6" value="库位加锁" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dkD_HturjqOUofhY_IXH-7" value="返回库位信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dkD_HturjqOUofhY_IXH-7" value="返回库位信息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
