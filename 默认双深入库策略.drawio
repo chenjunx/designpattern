@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T05:35:31.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_DkMz4ecmYAfTNbDfOC1" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:04:41.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="k2RJrsq8L5fx7qxRt7ir" version="21.3.8" type="github">
   <diagram name="第 1 页" id="F6dG5_A3Um-crkwg2Fu7">
     <mxGraphModel dx="2901" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Gf1vgHxvezX9lM_lhzFU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gf1vgHxvezX9lM_lhzFU-1" target="Gf1vgHxvezX9lM_lhzFU-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gf1vgHxvezX9lM_lhzFU-1" value="获取巷道信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Gf1vgHxvezX9lM_lhzFU-5" value="无" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HzNcq0CFOtS88VcaEKLo-2" target="Gf1vgHxvezX9lM_lhzFU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
