@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T09:13:15.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="X6eYW9xqZWnDIvgq0eLY" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T09:20:55.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qdPzHqlqms5_G5t-gWj4" version="21.3.8" type="github">
   <diagram name="第 1 页" id="4_rOkX2XlmEy1OLSEi3N">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="oLEZfEdZaJO-Whuaqxwj-21" value="校验可用是否两个可用库位" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="844" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KALQOvBL50Zs-UjGm-vL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLEZfEdZaJO-Whuaqxwj-23" target="KALQOvBL50Zs-UjGm-vL-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oLEZfEdZaJO-Whuaqxwj-23" value="根据策略入参，前后叉库位加锁" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="624" y="1990" width="120" height="60" as="geometry" />
@@ -193,8 +196,14 @@
         <mxCell id="oLEZfEdZaJO-Whuaqxwj-80" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1215" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="KALQOvBL50Zs-UjGm-vL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLEZfEdZaJO-Whuaqxwj-81" target="KALQOvBL50Zs-UjGm-vL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oLEZfEdZaJO-Whuaqxwj-81" value="前叉加锁返回" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1175" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KALQOvBL50Zs-UjGm-vL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLEZfEdZaJO-Whuaqxwj-83" target="KALQOvBL50Zs-UjGm-vL-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oLEZfEdZaJO-Whuaqxwj-83" value="后叉加锁返回" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1364" y="1420" width="120" height="60" as="geometry" />
@@ -207,6 +216,15 @@
         </mxCell>
         <mxCell id="KALQOvBL50Zs-UjGm-vL-3" value="返回" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1414" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KALQOvBL50Zs-UjGm-vL-5" value="返回" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="644" y="2120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KALQOvBL50Zs-UjGm-vL-7" value="返回" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="1690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KALQOvBL50Zs-UjGm-vL-9" value="返回" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1384" y="1550" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
