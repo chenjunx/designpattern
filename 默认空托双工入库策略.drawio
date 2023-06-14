@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T01:22:12.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pyCPSe5P0XwVmiP7EMt9" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:49:28.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UKPuFibYQIv7rcFYib3M" version="21.3.8" type="github">
   <diagram name="第 1 页" id="pvDsTN1WZWuoH9hocYKX">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
         <mxCell id="OVFr98HRhF4C5H6vrz8P-54" value="返回" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1384" y="1550" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OVFr98HRhF4C5H6vrz8P-55" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OVFr98HRhF4C5H6vrz8P-55" value="获取在行维度上相邻两空库位容器状态都是空的" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="670" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
