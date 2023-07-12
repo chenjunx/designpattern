@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T05:02:20.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="rtknknQHsZJ-ZHeAKiui" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T06:50:52.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Odhjv7HAPMXcxS_RBCku" version="21.6.1" type="github">
   <diagram name="第 1 页" id="kVYh9Iy2fqPo_1af2iDk">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-nRq6I5CeMPldo2QCW_-1" target="h-nRq6I5CeMPldo2QCW_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-1" value="校验托盘号&lt;br&gt;只支持1-2个" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-nRq6I5CeMPldo2QCW_-2" target="h-nRq6I5CeMPldo2QCW_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-2" value="校验托盘号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-nRq6I5CeMPldo2QCW_-6" target="h-nRq6I5CeMPldo2QCW_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-11" value="两个托盘采用双工分配策略" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-nRq6I5CeMPldo2QCW_-10">
+          <mxGeometry x="-0.4222" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-6" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-9" value="获取在列层面（排和层相同）两个相邻的库位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-nRq6I5CeMPldo2QCW_-14" target="h-nRq6I5CeMPldo2QCW_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nRq6I5CeMPldo2QCW_-14" value="校验库号是否为空" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
